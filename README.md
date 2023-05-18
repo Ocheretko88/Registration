@@ -9,11 +9,11 @@ This project is a simple user registration form implemented using Laravel, PHP, 
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository and run the project:
 
    ```shell
-   git clone [repository-url]
-   cd [project-directory]
+   git clone git@github.com:Ocheretko88/Registration.git
+   cd Registration
    composer install
    npm install
    npm run dev

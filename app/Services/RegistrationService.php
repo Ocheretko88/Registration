@@ -13,7 +13,7 @@ class RegistrationService
 
     public function registerUser($firstName, $lastName, $email, $password, $confirmPassword): array
     {
-        // Basic client-side validation
+        // Basic validation
         if (!$firstName || !$lastName || !$email || !$password || !$confirmPassword) {
             return [
                 'success' => false,
@@ -21,7 +21,7 @@ class RegistrationService
             ];
         }
 
-        // Additional client-side validation
+        // Additional validation
         if (!str_contains($email, '@')) {
             return [
                 'success' => false,
