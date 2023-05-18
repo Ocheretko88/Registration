@@ -4,10 +4,8 @@ This project is a simple user registration form implemented using Laravel, PHP, 
 
 ## Prerequisites
 
-- PHP (version X.X.X)
-- Composer (version X.X.X)
-- Web server (e.g., Apache, Nginx)
-- MySQL (optional if using a database)
+- PHP (version 8.1)
+- Laravel 10
 
 ## Installation
 
@@ -17,6 +15,15 @@ This project is a simple user registration form implemented using Laravel, PHP, 
    git clone [repository-url]
    cd [project-directory]
    composer install
-   cp .env.example .env
+   npm install
+   npm run dev
    php artisan key:generate
    php artisan serve
+   ```
+2. Open your web browser and visit http://localhost:8000 to access the application.
+
+Fill in the registration form with the required details (all fields are required).
+
+Click the "Register" button to submit the form.
+
+If the registration is successful, you will see a success message. Otherwise, if there are any errors (e.g., email already exists), an error message will be displayed.
